@@ -120,32 +120,32 @@ function draw() {
   );
 
   image(
-    imageFile[0],
+    imageFile[1],
     x + 350,
     height / 2,
-    imageFile[0].width / 1.3,
-    imageFile[0].height / 1.3
+    imageFile[1].width / 1.3,
+    imageFile[1].height / 1.3
   );
   image(
-    imageFile[0],
+    imageFile[2],
     x + 700,
     height / 2,
-    imageFile[0].width / 1.3,
-    imageFile[0].height / 1.3
+    imageFile[2].width / 1.3,
+    imageFile[2].height / 1.3
   );
   image(
-    imageFile[0],
+    imageFile[3],
     x + 1050,
     height / 2,
-    imageFile[0].width / 1.3,
-    imageFile[0].height / 1.3
+    imageFile[3].width / 1.3,
+    imageFile[3].height / 1.3
   );
   image(
-    imageFile[0],
+    imageFile[4],
     x + 1400,
     height / 2,
-    imageFile[0].width / 1.3,
-    imageFile[0].height / 1.3
+    imageFile[4].width / 1.3,
+    imageFile[4].height / 1.3
   );
 
   if (x < -1800) {
